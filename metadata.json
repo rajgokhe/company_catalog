@@ -1,0 +1,6 @@
+{
+  "name": "Corporate Directory Search",
+  "description": "An intelligent search application to quickly find contact information and telephone extensions from a corporate directory. Features real-time autocomplete search for a seamless user experience.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
