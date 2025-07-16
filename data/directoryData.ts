@@ -1,4 +1,4 @@
-import { DirectoryEntry } from '../types';
+import { DirectoryEntry } from '../types.ts';
 
 export const directoryData: DirectoryEntry[] = [
   // Data from Page 1

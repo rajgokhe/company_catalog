@@ -1,7 +1,7 @@
 
 import React from 'react';
-import { DirectoryEntry } from '../types';
-import ResultItem from './ResultItem';
+import { DirectoryEntry } from '../types.ts';
+import ResultItem from './ResultItem.tsx';
 
 interface ResultsListProps {
   results: DirectoryEntry[];

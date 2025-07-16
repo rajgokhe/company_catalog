@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { DirectoryEntry } from '../types';
+import { DirectoryEntry } from '../types.ts';
 
 interface ResultItemProps {
   entry: DirectoryEntry;

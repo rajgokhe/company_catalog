@@ -1,10 +1,10 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
-import { DirectoryEntry } from './types';
-import { directoryData } from './data/directoryData';
-import SearchBar from './components/SearchBar';
-import ResultsList from './components/ResultsList';
-import { LogoIcon } from './components/icons/LogoIcon';
+import { DirectoryEntry } from './types.ts';
+import { directoryData } from './data/directoryData.ts';
+import SearchBar from './components/SearchBar.tsx';
+import ResultsList from './components/ResultsList.tsx';
+import { LogoIcon } from './components/icons/LogoIcon.tsx';
 
 const App: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState<string>('');
